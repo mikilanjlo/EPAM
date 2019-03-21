@@ -1,0 +1,9 @@
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\bin\Debug\netstandard2.0\Sorting.deps.json
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\bin\Debug\netstandard2.0\Sorting.dll
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\bin\Debug\netstandard2.0\Sorting.pdb
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\obj\Debug\netstandard2.0\Sorting.csprojAssemblyReference.cache
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\obj\Debug\netstandard2.0\Sorting.csproj.CoreCompileInputs.cache
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\obj\Debug\netstandard2.0\Sorting.AssemblyInfoInputs.cache
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\obj\Debug\netstandard2.0\Sorting.AssemblyInfo.cs
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\obj\Debug\netstandard2.0\Sorting.dll
+C:\work\epam\offline\Новая папка\Sorting\Sorting\Sorting\obj\Debug\netstandard2.0\Sorting.pdb
