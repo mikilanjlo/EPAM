@@ -1,0 +1,9 @@
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\bin\Debug\netstandard2.0\WorkWithNumbers.deps.json
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\bin\Debug\netstandard2.0\WorkWithNumbers.dll
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\bin\Debug\netstandard2.0\WorkWithNumbers.pdb
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\obj\Debug\netstandard2.0\WorkWithNumbers.csprojAssemblyReference.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\obj\Debug\netstandard2.0\WorkWithNumbers.csproj.CoreCompileInputs.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\obj\Debug\netstandard2.0\WorkWithNumbers.AssemblyInfoInputs.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\obj\Debug\netstandard2.0\WorkWithNumbers.AssemblyInfo.cs
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\obj\Debug\netstandard2.0\WorkWithNumbers.dll
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.02\WorkWithNumbers\WorkWithNumbers\obj\Debug\netstandard2.0\WorkWithNumbers.pdb
