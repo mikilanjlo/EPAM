@@ -1,0 +1,9 @@
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\bin\Debug\netstandard2.0\WorkWithNumber2Part.deps.json
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\bin\Debug\netstandard2.0\WorkWithNumber2Part.dll
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\bin\Debug\netstandard2.0\WorkWithNumber2Part.pdb
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\obj\Debug\netstandard2.0\WorkWithNumber2Part.csprojAssemblyReference.cache
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\obj\Debug\netstandard2.0\WorkWithNumber2Part.csproj.CoreCompileInputs.cache
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\obj\Debug\netstandard2.0\WorkWithNumber2Part.AssemblyInfoInputs.cache
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\obj\Debug\netstandard2.0\WorkWithNumber2Part.AssemblyInfo.cs
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\obj\Debug\netstandard2.0\WorkWithNumber2Part.dll
+C:\Users\mikilanjlo\source\repos\WorkWithNumber\WorkWithNumber2Part\obj\Debug\netstandard2.0\WorkWithNumber2Part.pdb
