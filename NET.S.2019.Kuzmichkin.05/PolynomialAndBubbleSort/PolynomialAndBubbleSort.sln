@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomialAndBubbleSort", "PolynomialAndBubbleSort\PolynomialAndBubbleSort.csproj", "{6ADCF1D4-40A8-4C62-860F-F7B4D87804FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomialAndBubbleSortTests", "PolynomialAndBubbleSortTests\PolynomialAndBubbleSortTests.csproj", "{B2B5782B-A6D9-444A-AFB5-CC4F8024A517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ADCF1D4-40A8-4C62-860F-F7B4D87804FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADCF1D4-40A8-4C62-860F-F7B4D87804FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADCF1D4-40A8-4C62-860F-F7B4D87804FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADCF1D4-40A8-4C62-860F-F7B4D87804FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B5782B-A6D9-444A-AFB5-CC4F8024A517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B5782B-A6D9-444A-AFB5-CC4F8024A517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B5782B-A6D9-444A-AFB5-CC4F8024A517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B5782B-A6D9-444A-AFB5-CC4F8024A517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4991CC95-EF49-4228-9EED-89AE6D739FB2}
+	EndGlobalSection
+EndGlobal

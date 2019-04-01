@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikilanjlo\\source\\repos\\WorkWithNumber\\WorkWithNumber2Part\\WorkWithNumber2Part.csproj",
+      "projectUniqueName": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.03\\WorkWithNumber\\WorkWithNumber2Part\\WorkWithNumber2Part.csproj",
       "projectName": "WorkWithNumber2Part",
-      "projectPath": "C:\\Users\\mikilanjlo\\source\\repos\\WorkWithNumber\\WorkWithNumber2Part\\WorkWithNumber2Part.csproj",
+      "projectPath": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.03\\WorkWithNumber\\WorkWithNumber2Part\\WorkWithNumber2Part.csproj",
       "packagesPath": "C:\\Users\\mikilanjlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikilanjlo\\source\\repos\\WorkWithNumber\\WorkWithNumber2Part\\obj\\",
+      "outputPath": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.03\\WorkWithNumber\\WorkWithNumber2Part\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

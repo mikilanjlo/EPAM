@@ -1,0 +1,9 @@
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\bin\Debug\netstandard2.0\PolynomialAndBubbleSort.deps.json
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\bin\Debug\netstandard2.0\PolynomialAndBubbleSort.dll
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\bin\Debug\netstandard2.0\PolynomialAndBubbleSort.pdb
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\obj\Debug\netstandard2.0\PolynomialAndBubbleSort.csprojAssemblyReference.cache
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\obj\Debug\netstandard2.0\PolynomialAndBubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\obj\Debug\netstandard2.0\PolynomialAndBubbleSort.AssemblyInfoInputs.cache
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\obj\Debug\netstandard2.0\PolynomialAndBubbleSort.AssemblyInfo.cs
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\obj\Debug\netstandard2.0\PolynomialAndBubbleSort.dll
+C:\Users\mikilanjlo\source\repos\PolynomialAndBubbleSort\PolynomialAndBubbleSort\obj\Debug\netstandard2.0\PolynomialAndBubbleSort.pdb

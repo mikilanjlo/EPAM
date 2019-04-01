@@ -5774,11 +5774,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikilanjlo\\source\\repos\\WorkWithNumber\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.03\\WorkWithNumber\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\mikilanjlo\\source\\repos\\WorkWithNumber\\Tests\\Tests.csproj",
+      "projectPath": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.03\\WorkWithNumber\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\mikilanjlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikilanjlo\\source\\repos\\WorkWithNumber\\Tests\\obj\\",
+      "outputPath": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.03\\WorkWithNumber\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5797,8 +5797,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\mikilanjlo\\source\\repos\\WorkWithNumber\\WorkWithNumber2Part\\WorkWithNumber2Part.csproj": {
-              "projectPath": "C:\\Users\\mikilanjlo\\source\\repos\\WorkWithNumber\\WorkWithNumber2Part\\WorkWithNumber2Part.csproj"
+            "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.03\\WorkWithNumber\\WorkWithNumber2Part\\WorkWithNumber2Part.csproj": {
+              "projectPath": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.03\\WorkWithNumber\\WorkWithNumber2Part\\WorkWithNumber2Part.csproj"
             }
           }
         }
