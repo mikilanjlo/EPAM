@@ -88,5 +88,15 @@ namespace WorkWithNumber2Part
 
             return res.ToString();
         }
+
+        //private static byte[] GetBytes(double value)
+        //{
+        //    ulong ul = 66666;
+        //    byte[] bytes = new byte[8];
+        //    int count = 0;
+        //    for (int i = 0; i < 8; i++) {
+        //        bytes[i] = (byte)(value >> 8);
+        //     }
+        //}
     }
 }

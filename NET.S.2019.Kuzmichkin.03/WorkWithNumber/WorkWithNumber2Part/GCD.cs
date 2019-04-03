@@ -20,6 +20,11 @@ namespace WorkWithNumber2Part
 
         public static int EuclideanAlgorithm(params int[] array)
         {
+            if (array == null)
+                throw new ArgumentNullException(nameof(array) + " can't be null");
+
+            if (array.Length <= 1)
+                throw new ArgumentException(nameof(array) + " count of numbers must be more than 1");
             int gcd = array[0];
             for (int i = 1; i < array.Length - 1; i++)
                 gcd = EuclideanAlgorithm(gcd, array[i]);
@@ -68,6 +73,12 @@ namespace WorkWithNumber2Part
 
         public static int BynaryAlgorithm(params int[] array)
         {
+
+            if (array == null)
+                throw new ArgumentNullException(nameof(array) + " can't be null");
+
+            if (array.Length <= 1)
+                throw new ArgumentException(nameof(array) + " count of numbers must be more than 1");
             int gcd = array[0];
             for (int i = 1; i < array.Length - 1; i++)
                 gcd = EuclideanAlgorithm(gcd, array[i]);
