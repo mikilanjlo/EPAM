@@ -1,0 +1,14 @@
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\bin\Debug\netcoreapp2.1\ConsoleLibrary.deps.json
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\bin\Debug\netcoreapp2.1\ConsoleLibrary.runtimeconfig.json
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\bin\Debug\netcoreapp2.1\ConsoleLibrary.runtimeconfig.dev.json
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\bin\Debug\netcoreapp2.1\ConsoleLibrary.dll
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\bin\Debug\netcoreapp2.1\ConsoleLibrary.pdb
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\bin\Debug\netcoreapp2.1\BookLibrary.dll
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\bin\Debug\netcoreapp2.1\BookLibrary.pdb
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\obj\Debug\netcoreapp2.1\ConsoleLibrary.csprojAssemblyReference.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\obj\Debug\netcoreapp2.1\ConsoleLibrary.csproj.CoreCompileInputs.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\obj\Debug\netcoreapp2.1\ConsoleLibrary.AssemblyInfoInputs.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\obj\Debug\netcoreapp2.1\ConsoleLibrary.AssemblyInfo.cs
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\obj\Debug\netcoreapp2.1\ConsoleLibrary.csproj.CopyComplete
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\obj\Debug\netcoreapp2.1\ConsoleLibrary.dll
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\ConsoleLibrary\ConsoleLibrary\obj\Debug\netcoreapp2.1\ConsoleLibrary.pdb

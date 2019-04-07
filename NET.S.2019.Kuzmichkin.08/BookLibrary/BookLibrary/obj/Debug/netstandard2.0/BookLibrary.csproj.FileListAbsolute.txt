@@ -1,0 +1,8 @@
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\BookLibrary\BookLibrary\bin\Debug\netstandard2.0\BookLibrary.deps.json
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\BookLibrary\BookLibrary\bin\Debug\netstandard2.0\BookLibrary.dll
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\BookLibrary\BookLibrary\bin\Debug\netstandard2.0\BookLibrary.pdb
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\BookLibrary\BookLibrary\obj\Debug\netstandard2.0\BookLibrary.csproj.CoreCompileInputs.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\BookLibrary\BookLibrary\obj\Debug\netstandard2.0\BookLibrary.AssemblyInfoInputs.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\BookLibrary\BookLibrary\obj\Debug\netstandard2.0\BookLibrary.AssemblyInfo.cs
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\BookLibrary\BookLibrary\obj\Debug\netstandard2.0\BookLibrary.dll
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.08\BookLibrary\BookLibrary\obj\Debug\netstandard2.0\BookLibrary.pdb
