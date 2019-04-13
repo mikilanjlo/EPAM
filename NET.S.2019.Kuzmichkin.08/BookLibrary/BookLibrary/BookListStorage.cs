@@ -7,7 +7,13 @@ namespace BookLibrary
 {
     public class BookListStorage
     {
-        private BookListService listbooksService = new BookListService();
+        private List<Book> m_listbooks = new List<Book>();
+
+        public BookListStorage()
+        {
+            
+        }
+
         public BookListStorage(List<Book> localbooks)
         {
             
@@ -15,19 +21,39 @@ namespace BookLibrary
             {
                 throw new ArgumentNullException("Parametr can't be null");
             }
-            listbooksService.ListBooks = localbooks;
+            m_listbooks = localbooks;
+        }
+
+        public List<Book> ListBooks
+        {
+            get
+            {
+                return m_listbooks.Clone();
+            }
+
+            set
+            {
+                if (value == null)
+                {
+                    throw new ArgumentNullException("Value can't be null");
+                }
+                else
+                {
+                    m_listbooks = value.Clone();
+                }
+            }
         }
 
         public void UpdateListBooks(List<Book> list)
         {
-            listbooksService.ListBooks = list;
+            m_listbooks = list;
         }
 
         public void SaveBooks(string filename)
         {
             using (BinaryWriter writer = new BinaryWriter(File.Open(filename, FileMode.Create)))
             {
-                foreach (Book b in listbooksService.ListBooks)
+                foreach (Book b in m_listbooks)
                 {
                     writer.Write(b.isbn);
                     writer.Write(b.name);
@@ -61,7 +87,7 @@ namespace BookLibrary
                         result.Add(new Book(isbn, author, name, publisher, year, pages, price));
                     }
 
-                    listbooksService.ListBooks = result;
+                    m_listbooks = result;
                 }
             }
         }

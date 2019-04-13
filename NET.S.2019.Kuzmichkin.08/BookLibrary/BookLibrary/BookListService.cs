@@ -7,6 +7,13 @@ namespace BookLibrary
     public class BookListService
     {
         private List<Book> m_listbooks = new List<Book>();
+        private BookListStorage m_bookListStorage;
+
+        public BookListService(BookListStorage bookListStorage)
+        {
+            m_bookListStorage = bookListStorage;
+            m_listbooks = m_bookListStorage.ListBooks;
+        }
 
         public List<Book> ListBooks
         {
@@ -110,5 +117,12 @@ namespace BookLibrary
 
             return result;
         }
+
+        public void SaveInStoroge(string filename)
+        {
+            m_bookListStorage.UpdateListBooks(m_listbooks);
+            m_bookListStorage.SaveBooks(filename);
+        }
+        
     }
 }
