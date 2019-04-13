@@ -26,7 +26,7 @@ namespace WorkWithNumber2Part
             if (array.Length <= 1)
                 throw new ArgumentException(nameof(array) + " count of numbers must be more than 1");
             int gcd = array[0];
-            for (int i = 1; i < array.Length - 1; i++)
+            for (int i = 1; i < array.Length ; i++)
                 gcd = EuclideanAlgorithm(gcd, array[i]);
             return gcd;
         }
@@ -80,7 +80,7 @@ namespace WorkWithNumber2Part
             if (array.Length <= 1)
                 throw new ArgumentException(nameof(array) + " count of numbers must be more than 1");
             int gcd = array[0];
-            for (int i = 1; i < array.Length - 1; i++)
+            for (int i = 1; i < array.Length ; i++)
                 gcd = EuclideanAlgorithm(gcd, array[i]);
             return gcd;
         }
