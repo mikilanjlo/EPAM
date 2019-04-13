@@ -5,6 +5,7 @@ namespace BookLibrary
 {
     public class Book : IComparable<Book>, ICloneable
     {
+
         public string isbn { get; private set; }
 
         public string author { get; private set; }
@@ -17,9 +18,9 @@ namespace BookLibrary
 
         public int pagesCount { get; private set; }
 
-        public int price { get; private set; }
+        public double price { get; private set; }
 
-        public Book(string isbn, string author, string name, string publishing, int year, int pagesCount, int price)
+        public Book(string isbn, string author, string name, string publishing, int year, int pagesCount, double price)
         {
             if (isbn == null  || author == null || publishing == null )
             {
@@ -77,7 +78,7 @@ namespace BookLibrary
             hashcode = (23 * hashcode) + author.GetHashCode();
             hashcode = (23 * hashcode) + name.GetHashCode();
             hashcode = (23 * hashcode) + publisher.GetHashCode();
-            hashcode += price;
+            hashcode += (int)(price*100);
             hashcode += pagesCount;
             hashcode += year;
 
@@ -98,5 +99,7 @@ namespace BookLibrary
         {
             return new Book(isbn, author, name, publisher, year, pagesCount, price);
         }
+
+        
     }
 }
