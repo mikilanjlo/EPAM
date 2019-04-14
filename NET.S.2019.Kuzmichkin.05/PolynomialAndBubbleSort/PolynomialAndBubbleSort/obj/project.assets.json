@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikilanjlo\\source\\repos\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort.csproj",
+      "projectUniqueName": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.05\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort.csproj",
       "projectName": "PolynomialAndBubbleSort",
-      "projectPath": "C:\\Users\\mikilanjlo\\source\\repos\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort.csproj",
+      "projectPath": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.05\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort.csproj",
       "packagesPath": "C:\\Users\\mikilanjlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikilanjlo\\source\\repos\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort\\obj\\",
+      "outputPath": "C:\\work\\epam\\offline\\EPAM\\NET.S.2019.Kuzmichkin.05\\PolynomialAndBubbleSort\\PolynomialAndBubbleSort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

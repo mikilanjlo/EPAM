@@ -6,98 +6,80 @@ namespace PolynomialAndBubbleSort
 {
     public static class Matrix
     {
-        public static int[,] GetClone(int[,] arr)
+        public static int[][] GetClone(int[][] arr)
         {
-
-            int rows = arr.GetUpperBound(0) + 1;
-            int columns = arr.Length / rows;
-            int[,] newArray = new int[rows,columns];
-            for (int i = 0; i < rows; i++)
-                for (int j = 0; j < columns; j++)
+            int[][] newArray = new int[arr.Length][];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                newArray[i] = new int[arr[i].Length];
+                for (int j = 0; j < arr[i].Length; j++)
                 {
-                    newArray[i, j] = arr[i,j];
+                    newArray[i][j] = arr[i][j];
                 }
+            }
             return newArray;
         }
 
-        public static void ReverseLine(int[,] arr)
+        public static void ReverseLine(int[][] arr)
         {
             if (arr == null)
                 throw new ArgumentNullException();
             if (arr.Length < 1)
                 throw new ArgumentException();
-            int rows = arr.GetUpperBound(0) + 1;
-            int columns = arr.Length / rows;
-            int[,] newArray = GetClone(arr);
-            for (int i = 0; i < rows; i++)
-                for (int j = 0; j < columns; j++)
-                {
-                    arr[i, j] = newArray[rows - i - 1, j];
-                }
+            for (int i = 0; i < arr.Length / 2; i++)
+                SwapMatrixRows(arr[i], arr[arr.Length - 1 - i]);
         }
 
 
-        public static void SumSortLine(int[,] arr)
+        public static void SumSortLine(int[][] arr)
         {
             if (arr == null)
                 throw new ArgumentNullException();
             if (arr.Length < 1)
                 throw new ArgumentException();
-            int rows = arr.GetUpperBound(0) + 1;
-            int columns = arr.Length / rows;
-            int[] sum = new int[rows];
-            for (int i = 0; i < rows; i++)
-                sum[i] = 0;
-            for (int i = 0; i < rows; i++)
-                for (int j = 0; j < columns; j++)
+            int[] sum = new int[arr.Length];
+            for (int i = 0; i < arr.Length; i++)
+                for (int j = 0; j < arr[i].Length; j++)
                 {
-                    sum[i] += arr[i, j];
+                    sum[i] += arr[i][j];
                 }
             BubbleSort(arr, sum);
         }
 
-        public static void MaxSortLine(int[,] arr)
+        public static void MaxSortLine(int[][] arr)
         {
             if (arr == null)
                 throw new ArgumentNullException();
             if (arr.Length < 1)
                 throw new ArgumentException();
-            int rows = arr.GetUpperBound(0) + 1;
-            int columns = arr.Length / rows;
-            int[] maxElements = new int[rows];
-            for (int i = 0; i < rows; i++)
-                maxElements[i] = 0;
-            for (int i = 0; i < rows; i++)
+            int[] maxElements = new int[arr.Length];
+            for (int i = 0; i < arr.Length; i++)
             {
-                int max = -2000000000;
-                for (int j = 0; j < columns; j++)
+                int max = int.MinValue;
+                for (int j = 0; j < arr[i].Length; j++)
                 {
-                    if (arr[i, j] > max)
-                        max = arr[i, j];
+                    if (arr[i][j] > max)
+                        max = arr[i][j];
                 }
                 maxElements[i] = max;
             }
             BubbleSort(arr, maxElements);
         }
 
-        public static void MinSortLine(int[,] arr)
+        public static void MinSortLine(int[][] arr)
         {
             if (arr == null)
                 throw new ArgumentNullException();
             if (arr.Length < 1)
                 throw new ArgumentException();
-            int rows = arr.GetUpperBound(0) + 1;
-            int columns = arr.Length / rows;
-            int[] minElements = new int[rows];
-            for (int i = 0; i < rows; i++)
-                minElements[i] = 0;
-            for (int i = 0; i < rows; i++)
+            int[] minElements = new int[arr.Length];
+            for (int i = 0; i < arr.Length; i++)
             {
-                int min = 2000000000;
-                for (int j = 0; j < columns; j++)
+                int min = int.MaxValue;
+                for (int j = 0; j < arr[i].Length; j++)
                 {
-                    if (arr[i, j] < min)
-                        min = arr[i, j];
+                    if (arr[i][j] < min)
+                        min = arr[i][j];
                 }
                 minElements[i] = min;
             }
@@ -105,7 +87,7 @@ namespace PolynomialAndBubbleSort
         }
 
 
-        private static void BubbleSort(int[,] matrix,int[] arr)
+        private static void BubbleSort(int[][] matrix,int[] arr)
         {
             for (int write = 0; write < arr.Length; write++)
             {
@@ -113,30 +95,26 @@ namespace PolynomialAndBubbleSort
                 {
                     if (arr[sort] > arr[sort + 1])
                     {
-                        Swap(arr,sort, sort + 1);
-                        SwapMatrixLine(matrix, sort, sort + 1);
+                        Swap(ref arr[sort], ref arr[sort+1]);
+                        SwapMatrixRows(matrix[sort],matrix[sort+1]);
                     }
                 }
             }
 
         }
 
-        private static void Swap(int[] arr,int i, int j)
+        private static void SwapMatrixRows(int[] arr1, int[] arr2)
         {
-            int temp = arr[j];
-            arr[j] = arr[i];
-            arr[i] = temp;
+            int[] temp = arr1;
+            arr1 = arr2;
+            arr2 = temp;
         }
-        private static void SwapMatrixLine(int[,] arr, int line, int nextLine)
+        private static void Swap(ref int a,ref int b)
         {
-            int rows = arr.GetUpperBound(0) + 1;
-            int columns = arr.Length / rows;
-            for (int i = 0; i < columns; i++)
-            {
-                int temp = arr[nextLine, i];
-                arr[nextLine, i] = arr[line,i];
-                arr[line,i] = temp;
-            }   
+            int temp = a;
+            a = b;
+            b = temp;
         }
+
     }
 }
