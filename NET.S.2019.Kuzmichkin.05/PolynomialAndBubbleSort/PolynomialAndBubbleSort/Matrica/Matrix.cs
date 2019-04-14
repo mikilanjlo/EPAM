@@ -39,10 +39,7 @@ namespace PolynomialAndBubbleSort
                 throw new ArgumentException();
             int[] sum = new int[arr.Length];
             for (int i = 0; i < arr.Length; i++)
-                for (int j = 0; j < arr[i].Length; j++)
-                {
-                    sum[i] += arr[i][j];
-                }
+                sum[i] = arr[i].Sum();
             BubbleSort(arr, sum);
         }
 
@@ -54,14 +51,8 @@ namespace PolynomialAndBubbleSort
                 throw new ArgumentException();
             int[] maxElements = new int[arr.Length];
             for (int i = 0; i < arr.Length; i++)
-            {
-                int max = int.MinValue;
-                for (int j = 0; j < arr[i].Length; j++)
-                {
-                    if (arr[i][j] > max)
-                        max = arr[i][j];
-                }
-                maxElements[i] = max;
+            {   
+                maxElements[i] = arr[i].Max();
             }
             BubbleSort(arr, maxElements);
         }
@@ -75,13 +66,7 @@ namespace PolynomialAndBubbleSort
             int[] minElements = new int[arr.Length];
             for (int i = 0; i < arr.Length; i++)
             {
-                int min = int.MaxValue;
-                for (int j = 0; j < arr[i].Length; j++)
-                {
-                    if (arr[i][j] < min)
-                        min = arr[i][j];
-                }
-                minElements[i] = min;
+                minElements[i] = arr[i].Min();
             }
             BubbleSort(arr, minElements);
         }
