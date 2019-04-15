@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PolynomialAndBubbleSort.Matrix.Comparer
+namespace PolynomialAndBubbleSort
 {
     public class ComparerByMinElement : IComparer<int[]>
     {

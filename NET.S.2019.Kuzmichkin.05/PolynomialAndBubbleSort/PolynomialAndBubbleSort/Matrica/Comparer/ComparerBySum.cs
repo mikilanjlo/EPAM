@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PolynomialAndBubbleSort.Matrix.Comparer
+namespace PolynomialAndBubbleSort
 {
-    class ComparerIntArrayBySum : IComparer<int[]>
+    class ComparerBySum : IComparer<int[]>
     {       
         public int Compare(int[] x, int[] y)
         {
