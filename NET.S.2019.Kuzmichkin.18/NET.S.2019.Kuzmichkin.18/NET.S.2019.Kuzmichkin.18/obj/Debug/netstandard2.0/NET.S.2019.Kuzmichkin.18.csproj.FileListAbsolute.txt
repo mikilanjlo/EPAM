@@ -1,0 +1,5 @@
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\bin\Debug\netstandard2.0\NET.S.2019.Kuzmichkin.18.deps.json
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\bin\Debug\netstandard2.0\NET.S.2019.Kuzmichkin.18.dll
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\obj\Debug\netstandard2.0\NET.S.2019.Kuzmichkin.18.csproj.CoreCompileInputs.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\obj\Debug\netstandard2.0\NET.S.2019.Kuzmichkin.18.AssemblyInfoInputs.cache
+C:\work\epam\offline\EPAM\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\NET.S.2019.Kuzmichkin.18\obj\Debug\netstandard2.0\NET.S.2019.Kuzmichkin.18.AssemblyInfo.cs

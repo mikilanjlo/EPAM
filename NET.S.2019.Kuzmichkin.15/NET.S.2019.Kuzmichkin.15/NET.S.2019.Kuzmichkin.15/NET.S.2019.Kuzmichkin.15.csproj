@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>NET.S._2019.Kuzmichkin._15</RootNamespace>
+  </PropertyGroup>
+
+</Project>
